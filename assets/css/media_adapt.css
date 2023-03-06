@@ -1,6 +1,6 @@
 @media (max-width: 375px){
   body {
-    background-color: red;
+    background-color: blue;
   }
   header, main, footer {
     display: none;
