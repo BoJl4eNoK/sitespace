@@ -327,7 +327,7 @@ body {
 }
 .btn-up  {    
 	position: fixed;
-  background-color: #673ab7;
+  background-color: #093850;
   right: 20px;
   bottom: 0px;
   border-top-left-radius: 8px;
@@ -363,4 +363,36 @@ body {
 .btn-up:hover {
 	background-color: #512da8;
 	transition: background-color 0.3s ease-in-out;
+}
+
+.wrapper__sun {
+	background-color: #1a1919;
+	padding-top: 2px;
+}
+.wrapper__galaxy {
+	background-color: #1a132b;
+	padding-top: 3px;
+}
+.media__sun, .media__galaxy {
+	display: flex;
+	justify-content: space-between;
+}
+.star__sun, .galaxy__content {
+	display: flex;
+	justify-content: space-between;
+}
+.title__sun, .title__galaxy {
+	text-align: center;
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+}
+.sun__info, .galaxy__info {
+
+	color: #fff;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.title__media {
+	color: #fff;
 }
