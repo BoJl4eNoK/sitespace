@@ -33,7 +33,8 @@
   .logo {
     width: 80%;
     height: 80%;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-top: -5px;
   }
   .info__space {
     margin-top: 10px;
@@ -68,10 +69,10 @@
     height: 170px;
     display: none;
   }
-  .title__asteroid {
+  .title__asteroid, .title__sun, .title__galaxy {
     font-size: 26px;
   }
-  .asteroid__info {
+  .asteroid__info, .sun__info, .galaxy__info {
     font-size: 15px;
   }
 
@@ -123,4 +124,19 @@
     z-index: -100;
     min-height: calc(100vh - 144px);
   }
+  .img__sun {
+    display: none;
+  }
+  .img__galaxy {
+    display: none;
+  }
+  .media__sun, .media__galaxy {
+    display: inline-block;
+    width: 100%;
+  }
+  .media__sun iframe,
+  .media__galaxy iframe {
+    width: 100%;
+    height: 220px;
+  } 
 }
